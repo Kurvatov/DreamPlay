@@ -1,0 +1,135 @@
+*{
+    font-family: 'Dosis', sans-serif;
+
+}
+main{
+    background-color: #111a2b;
+}
+#section-a{
+    height: 50vh;
+   position: relative;
+   background-image: url(../images/rate1.jpg);
+   background-attachment: fixed;
+   background-position: bottom;
+   background-size: cover;
+   
+}
+#section-a h1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px black;
+    margin-top: 10vh;
+    font-size: calc(25px + 3vw);
+}
+#section-a p{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px black;
+    margin-top: 25vh;
+    font-size: calc(15px + 1vw);
+}
+.container{
+    box-shadow: 0 0 10px 0 white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #111a2b;
+    margin-top: 15vh;
+    position: relative;
+}
+h3{
+    color:orangered;
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+hr{
+    border: 0.5px solid white;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#first,#second{
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    margin-top: 10px;
+}
+#second{
+    margin-bottom: 15px;
+}
+.image-container{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#image-one,#image-two,#image-three,#image-four{
+    margin-right: 5px;
+}
+#rating-level{
+    margin-top: 15px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+#third{
+    margin-top: 15px;
+    margin-left: 25px;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+.rating_btn{
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  
+   
+}
+.rating_btn:hover,.rating_btn:focus{
+   border: 1px solid #F78908;
+   background-color: #2c2f34;
+   color: white;
+}
+.btn-container{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#btn-one,#btn-two,#btn-three{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+#fourth{
+    margin-top: 15px;
+    margin-left: 25px;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+#rating-input{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 4px;
+}
+#rating-submit{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 4px;
+    background: #2c2f34;
+    color:white;
+}
+#rating-submit:hover,#rating-submit:focus{
+    border: 1px solid #F78908;
+    background-color: white;
+    color: #2c2f34;
+}

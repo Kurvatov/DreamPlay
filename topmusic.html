@@ -1,0 +1,152 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dream Play</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/core.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/topmusic.css" />
+    <script src="JS/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+    <button id="menu-icon"><i id="burger" class="fas fa-bars fa-2x" data-fa-transform="rotate-45"></i></button>
+    <a href="#" id="scroll"><span></span></a>
+    <nav id="side-menu">
+        <div id="menu">
+            <span> MENU </span>
+        </div>
+        <a href="index.html"><i class="fa fa-home fa-xs inside" aria-hidden="true"></i>Home</a>
+        <a href="topmusic.html"><i class="fa fa-music fa-xs inside" aria-hidden="true"></i>Top 10</a>
+        <a href="rate.html"><i class="fa fa-heart fa-xs inside" aria-hidden="true"></i>Rate US</a>
+        <a href="contact.html"><i class="fa fa-envelope fa-xs inside" aria-hidden="true"></i>Contact US</a>
+        <div id="social-container">
+            <div class="social"><img src="images/facebook_nc.png" alt="facebook"></div>
+            <div class="social"><img src="images/twitter_nc.png" alt="twitter"></div>
+            <div class="social"><img src="images/instagram_nc.png" alt="instagram"></div>
+            <div class="social"><img src="images/linkedin_nc.png" alt="linkedin"></div>
+            <div class="social"><img src="images/reddit_nc.png" alt="reddit"></div>
+            <span id="social-content"></span>
+        </div>
+    </nav>
+    <main>
+        <section id="section-a">
+            <h1>TOP 10 MUSIC</h1>
+            <p>Listen to the top 10 music of all times</p>
+        </section>
+        <div id="container">
+            <div class="music"></div>
+            <div class="music">
+                <audio src="music1.mp3"></audio>
+                <p>1. Bohemian Rhapsody</p>
+                <button id="btn-1"><i class="fa fa-play-circle" aria-hidden="true"></i>LISTEN</button>
+            </div>
+            <div class="music">
+                <audio src="music2.mp3"></audio>
+                <p>2. Starway to Heaven</p>
+                <button id="btn-2"><i class="fa fa-play-circle" aria-hidden="true"></i> LISTEN</button>
+            </div>
+            <div class="music">
+                <audio src="music3.mp3"></audio>
+                <p>3. Imagine</p>
+                <button id="btn-3"> <i class="fa fa-play-circle" aria-hidden="true"></i> LISTEN</button>
+            </div>
+            <div class="music">
+                <audio src="music4.mp3"></audio>
+                <p>4. Smells Like Teen Spirit</p>
+                <button id="btn-4"><i class="fa fa-play-circle" aria-hidden="true"></i> LISTEN</button>
+            </div>
+            <div class="music">
+                <audio src="music5.mp3"></audio>
+                <p>5. Hotel California</p>
+                <button id="btn-5"><i class="fa fa-play-circle" aria-hidden="true"></i> LISTEN</button>
+            </div>
+            <div class="music">
+                <audio src="music6.mp3"></audio>
+                <p>6. One</p>
+                <button id="btn-6"><i class="fa fa-play-circle" aria-hidden="true"></i> LISTEN</button>
+            </div>
+            <div class="music">
+                <audio src="music7.mp3"></audio>
+                <p>7. Comfortably Numb</p>
+                <button id="btn-7"><i class="fa fa-play-circle" aria-hidden="true"></i> LISTEN</button>
+            </div>
+            <div class="music">
+                <audio src="music8.mp3"></audio>
+                <p>8. Hey Jude</p>
+                <button id="btn-8"><i class="fa fa-play-circle" aria-hidden="true"></i> LISTEN</button>
+            </div>
+            <div class="music">
+                <audio src="music9.mp3"></audio>
+                <p>9. Sweet Child O'Mine</p>
+                <button id="btn-9"><i class="fa fa-play-circle" aria-hidden="true"></i> LISTEN</button>
+            </div>
+            <div class="music">
+                <audio src="music10.mp3"></audio>
+                <p>10. Like a Rolling Stone</p>
+                <button id="btn-10"><i class="fa fa-play-circle" aria-hidden="true"></i> LISTEN</button>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="modal-content" id="first">
+                <i class="fa fa-times" aria-hidden="true"></i>
+                <object data="music1.txt" type=""></object>
+            </div>
+            <div class="modal-content" id="second">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <object data="music2.txt" type=""></object>
+            </div>
+            <div class="modal-content" id="third">
+                <i class="fa fa-times" aria-hidden="true"></i>
+                <object data="music3.txt" type=""></object>
+            </div>
+            <div class="modal-content" id="fourth">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <object data="music4.txt" type=""></object>
+            </div>
+            <div class="modal-content" id="fifth">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <object data="music5.txt" type=""></object>
+            </div>
+            <div class="modal-content" id="sixth">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <object data="music6.txt" type=""></object>
+            </div>
+            <div class="modal-content" id="seventh">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <object data="music7.txt" type=""></object>
+            </div>
+            <div class="modal-content" id="eighth">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <object data="music8.txt" type=""></object>
+            </div>
+            <div class="modal-content" id="nineth">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <object data="music9.txt" type=""></object>
+            </div>
+            <div class="modal-content" id="tenth">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <object data="music10.txt" type=""></object>
+            </div>
+                
+        </div>
+
+<br>
+    </main>
+    <footer>
+        <span>&copy; 2019 All rigths reserved</span>
+        <span id="date"></span>
+        <span>Stephane Monteiro<br>Jose Monteiro</span>
+
+    </footer>
+    <script src="JS/core.js"></script>
+    <script src="JS/topmusic.js"></script>
+</body>
+
+</html>

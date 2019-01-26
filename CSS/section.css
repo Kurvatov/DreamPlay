@@ -1,0 +1,178 @@
+#section-a{
+    height: 100vh;
+   /* background-image: url(../images/section_a.jpg);*/
+   
+}
+
+#section-a button{
+    position: absolute;
+    display: block;
+    width: 10vw;
+    min-width: 7em;
+    height: 2.5em;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 90vh;
+    z-index:2;
+    border-radius: 8px;
+    background-color: #111a2b;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    animation: shadow-pulse 1s infinite;
+}
+#section-b{
+    height: 100vh;
+   position: relative;
+   background-color: #111a2b;
+}
+
+#slideshow{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.active{
+    transition: all 1s;
+    opacity: 0;
+}
+.active1{
+    transition: all 1s;
+    opacity: 1;
+}
+#container{
+    font-family: 'Dosis', sans-serif;
+    font-size: 8vw;
+    position: absolute;
+    color:white;
+    text-shadow: 2px 2px black;
+    width: 100%;
+    text-align: center;
+    margin-top: 30vh;
+}
+#container1{
+    font-family: 'Dosis', sans-serif;
+    font-size: calc(1em + 1vw);
+    position: absolute;
+    color:white;
+    text-shadow: 2px 2px black;
+    margin-top: 50vh;
+    width: 100%;
+    text-align: center;
+}
+
+#section-b h1{
+    font-size: 6vw;
+    margin-top: 10vh;
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    color:white;
+    text-shadow: 2px 2px black;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    font-size: calc(12px + 1vw);
+    margin-top: 30vh;
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    color:white;
+    width: 100%;
+    text-align: center;
+}
+.content{
+    width: 25%;
+    height: 25vh;
+    display: inline-block;
+    position: absolute;
+    margin-top: 75vh;  
+}
+#one{
+    background-image: url(../images/music1.jpg);
+    background-attachment: local;
+    background-size: cover; 
+}
+#one div,#two div,#three div,#four div{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.644);
+    position: absolute;
+    opacity: 0;
+    text-align: center;
+    font-size: 5vw;
+    
+}
+
+#one div span,#two div span,#three div span,#four div span{
+    position: relative;
+    color:black;
+    text-shadow: 2px 2px white;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    line-height: 8vh;
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+#one i,#two i,#three i,#four i{
+    line-height: 25vh;
+}
+#two{
+    margin-left: 25%;
+    background-image: url(../images/music2.jpg);
+    background-attachment: local;
+    background-size: cover;
+    background-position: center;
+}
+#three{
+    margin-left: 50%;
+    background-image: url(../images/music3.jpg);
+    background-attachment: local;
+    background-size: cover;
+    background-position: center;
+}
+#four{
+    margin-left: 75%;
+    background-image: url(../images/music4.jpg);
+    background-attachment: local;
+    background-size: cover;
+    background-position: center;
+}
+
+#section-b span{
+    font-family: 'Dosis', sans-serif;
+    font-size: calc(12px + 0.5vw);
+    color:white;
+    position: absolute;
+    width: 25%;
+    margin-top: 70vh;
+    text-align: center;
+    
+}
+#section-b span~span{
+    margin-left: 25%;
+}
+#section-b span~span~span{
+    margin-left: 50%;
+}
+#section-b span~span~span~span{
+    margin-left: 75%;
+}
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 252, 252, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(255, 255, 255, 0);
+  }
+}

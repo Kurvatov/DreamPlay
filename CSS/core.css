@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+   
+}
+#menu-icon{
+    position: fixed;    
+    border: none;
+    background: none;
+    cursor: pointer;
+    right:0;
+    z-index:1;
+    outline: none;
+    transition: all 0.5s;
+    padding: 3em;
+    color: white;
+}
+#menu{
+    width: 100%;
+    height: 6rem;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+#side-menu div span{
+    
+    line-height: 6rem;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+nav {
+    background-color: #111a2b;
+	height: 100%;
+	width: 0px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right:0;
+	overflow-x: hidden;
+    transition: all 0.5s;
+    
+}
+nav a {
+	display: block;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+	color: white;
+	font-size: 20px;
+    text-align: left;
+    margin: 1rem; 
+    opacity:0;
+    transition: all 0.1s;
+}
+.inside{
+    margin-right: 1em;
+}
+nav a:hover{
+    font-size: 2rem;
+}
+#social-container{
+    width: 100%;
+    height: 2.2em;
+    box-sizing: border-box;
+    
+}
+.social{
+    border: 1px solid white;
+    width: 2em;
+    height: 2em;;
+    display: inline-block;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin:4% 0% 0% 4%;
+}
+.social img{
+    width: 1em;
+    height: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+}
+.social:hover:nth-child(1){
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+}
+.social:hover:nth-child(2){
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+}
+.social:hover:nth-child(3){
+    background-image:  linear-gradient(to bottom right, blue,red,yellow);
+    border: inherit;
+}
+.social:hover:nth-child(4){
+    background-color: #007bb5;
+    border: 1px solid #007bb5;
+}
+.social:hover:nth-child(5){
+    background-color: #ff4500;
+    border: 1px solid #ff4500;
+}
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:rgba(0, 0, 0, 0.7);
+    display:none;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    z-index:3;
+    transition: 0.5s;
+    margin-right:1em;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+   border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:orangered;
+    opacity:1;
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+footer {
+	width: 100%;
+	min-height: 12vh;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    background-color: #060a11;
+}
+footer span {
+	text-align: center;
+	font-size: 0.8rem;
+	margin: 0 auto;
+	display: inline-block;
+    width: calc(100%/3);
+    color:white;
+    text-shadow: 2px 2px black;
+    font-family: 'Dosis', sans-serif;
+}

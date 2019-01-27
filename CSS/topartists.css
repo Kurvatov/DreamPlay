@@ -1,0 +1,87 @@
+*{
+    font-family: 'Dosis', sans-serif;
+
+}
+
+#section-a{
+    height: 50vh;
+   position: relative;
+   background-image: url(../images/contact1.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   opacity: 0.9;
+}
+#section-a h1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px black;
+    margin-top: 10vh;
+    font-size: calc(25px + 3vw);
+}
+
+#section-a p{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px black;
+    margin-top: 25vh;
+    font-size: calc(15px + 1vw);
+}
+main{
+    background-color: #111a2b;
+}
+.content:last-child{
+    border-bottom: 1px solid white;
+}
+.content{
+    height: 15em;
+    position: relative;
+    width: 70%;
+    margin-left:auto;
+    margin-right:  auto;
+    
+    border-top: 1px solid white;
+    
+    overflow: auto;
+}
+.content a{
+    display: block;
+    margin-top: 2em;
+    text-decoration: none;
+    color: white;
+    text-shadow:2px 2px black;
+}
+.content img{
+    border-radius: 10%;
+    border: .2rem solid #343a40;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 50px;
+    min-height: 50px;
+    width: 25%;
+    float: right;
+    margin-top: 1em;
+    overflow: auto;
+}
+.content h3{
+    margin-top: 1em;
+    margin-left: 1em;
+    color: white;
+    text-shadow: 2px 2px black; 
+}
+#title{
+    margin-top: 1em;
+    margin-left: 2em;
+    color: white;
+    text-shadow: 2px 2px black; 
+}
+.members{
+    margin-left: 4em;
+    color: white;
+    text-shadow: 2px 2px black; 
+    display: block;
+}

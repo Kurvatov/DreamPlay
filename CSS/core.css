@@ -5,6 +5,9 @@
     scroll-behavior: smooth;
    
 }
+a{
+    text-decoration: none;
+}
 #menu-icon{
     position: fixed;    
     border: none;
@@ -58,7 +61,7 @@ nav a {
     margin-right: 1em;
 }
 nav a:hover{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 #social-container{
     width: 100%;

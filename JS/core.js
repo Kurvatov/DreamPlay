@@ -1,5 +1,4 @@
-var navMenu = document.querySelector("#side-menu");
-var iconMenu = document.querySelector("#menu-icon");
+
 var status = 0;
 $(document).ready(function(){
     $('#menu-icon').click(function(){
@@ -62,7 +61,8 @@ $(document).ready(function () {
     var minutes= d.getMinutes();
     var seconds=d.getSeconds();
     
-    var output = (day<10 ? '0' : '') +day + '/' +(month<10 ? '0' : '') + month + '/' + d.getFullYear()+" "+ (hour<10 ? '0' : '') + hour + ":" + (minutes<10 ? '0' : '') + minutes + ":" +(seconds<10 ? '0' : '') + seconds;
+    var output = (day<10 ? '0' : '') +day + '/' +(month<10 ? '0' : '') + month + '/' + d.getFullYear()+" "+
+     (hour<10 ? '0' : '') + hour + ":" + (minutes<10 ? '0' : '') + minutes + ":" +(seconds<10 ? '0' : '') + seconds;
    
       $("#date").html(output);
     },1000);
